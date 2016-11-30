@@ -1,5 +1,4 @@
 <?php
-    include_once 'connect.php';
     include_once 'config.php';
     include_once 'include_function.php';
     include_once 'class/Project.php'; 
@@ -9,7 +8,7 @@
     $o = new Project();
     $s = new SavehandlerApi();
     $gf = new GeneralFunction();
-    $o->save = $s;
+    $o->save = $ssss;
 
     $action = escape($_REQUEST['action']);
     $o->project_id = escape($_REQUEST['project_id']);
